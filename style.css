@@ -1,0 +1,38 @@
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    background-color: beige;
+    
+}
+
+header.nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+}
+
+header.nav ul > li {
+    margin-left: 40px;
+    font-size: 25px;
+}
+
+img {
+    display: block;
+}
+
+table, th, td {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid;
+}
+
+#foot {
+    height: 100px;
+    text-align: center;
+}
+@media only screen and (min-width: 600px) {
+        
+}
