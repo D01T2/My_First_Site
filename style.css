@@ -17,6 +17,9 @@ a {
 /* 
 LAYOUT
 */
+body {
+  max-width: 1080px;
+}
 
 h1,
 h2,
@@ -32,7 +35,7 @@ header img {
     float: left;
     padding-left: 15px;
     padding-top: 5px;
-    40px;
+    width: 70px;
 }
 
 header.nav ul {
@@ -62,7 +65,3 @@ table, th, td {
     height: 100px;
     text-align: center;
 }
-
-/* 
-RESPONSIVE
-*/
